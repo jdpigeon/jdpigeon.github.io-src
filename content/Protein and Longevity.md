@@ -1,0 +1,33 @@
+Author: 
+Date: 2014-03-05
+Title: Protein Intake and Aging
+Summary: A new study on the relationship between protein intake and longevity has been making the rounds across the internet. The impressive [16-author paper](http://www.ncbi.nlm.nih.gov/pubmed/24606898) from the Longo Laba at USC is not the first to suggest that meat is bad for you, but it does seem to be rather well supported than the rest, with a cellular and molecular component and even a handful of yeast experiments thrown in.
+Status: published 
+
+
+A new study on the relationship between protein intake and longevity has been making the rounds across the internet. The impressive [16-author paper](http://www.ncbi.nlm.nih.gov/pubmed/24606898) from the Longo Laba at USC is not the first to suggest that meat is bad for you, but it does seem to be rather well supported than the rest, with a cellular and molecular component and even a handful of yeast experiments thrown in.
+
+By analyzing data from an American cross-sectional health survey, the authors found that adults between the ages of 50 and 65 who obtained over 10% of their calories from protein had shorter lifespans and were more likely to die from cancer, diabetes, and cardiovascular disease than those who consumed less than 10% of their calories from protein. This effect was greatest in the group that consumed over 20% of their calories from protein, who were found to be four times more likely to die from cancer than those in the low-protein group.
+
+Interestingly, this association only held true for animal protein. The proportion of plant-based protein, carbohydrates, and fat in people's diets did not seem to hold any correlation to mortality based on this data.
+
+Conversely, protein intake appeared to have the opposite effect in those over the age of 65. Higher protein intake was associated with decreased overall and cancer mortality. The author's believe that this may be due to a decrease in protein absorption and the need to consume higher levels of protein in order to maintain normal body weight and function.
+
+In order to understand the basis for relationship between meat and mortality, the authors examined blood test data from a subset of the study population. They found that the concentration of IGF-1 (essentialy growth hormone), was proportional to protein intake. Statistical tests found that, although IGF-1 levels did not mediate the association between protein intake and mortality, they were a significant moderator of the effect. This means that there was still an independent effect of protein intake on mortality when IGF-1 levels were controlled for. However, variation in IGF-1 levels appeared to influence the strength of the relationship. So, if IGF-1 isn't the complete story, the authors concluded that it at least plays a large role.
+
+The authors then ran some mice experiments to observe how protein intake and IGF-1 might influence cancer mortality. They implanted tumors into mice and found that they grew larger and faster in mice on a high protein diet. Contradicting the human data, this effect appeared in mice fed both animal and plant-based protein.
+
+The mice team then turned their sights towards IGF-1. Compared to mice on a high protein diet (18%), Mice on a low protein diet had 35% less IGF-1 than those on a high protein diet and higher levels of IGF binding protein, which inhibits the action of IGF-1 in the blood. Furthermore, tumor progression was greatly inhibited in a strain of mice that lacked the IGF-1 receptor. 
+
+Is this perfect evidence that a vegetarian diet is best for optimal longevity? No, but it does have significant strengths over some [previous](http://archinte.jamanetwork.com/article.aspx?articleid=1134845 "Title") [studies](http://archinte.jamanetwork.com/article.aspx?articleid=414881 "Title").  Most notably, the mice experiments allow this paper to go beyond the common limitations of cross-sectional studies and link human data to an already existing body of research linking [cancer proliferation and IGF-1 signaling](http://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2804%2916044-3/fulltext) . It also draws its epidemiological data from a sensible place, the Third National Health and Nutrition Examination Survey (NHANESIII), which collected data from participants by having them track everything they ate over a 24hr period, rather than having them make guesses about their eating habits. It also processed that data sensibly, controlling for the myriad factors that might counfound things: age, race/ethnicity, education, sex, disease status, smoking, dietary changes, total calorie consumption, and even waist circumference.
+
+However, this paper still only points to an association. The different effects of protein consumption between those over and under 65 is especially curious. Also, if age had such a strong effect on protein and cancer risk, it should be possible to analyze age as a covariable, identifying the relationship between age and the protein-mortality interaction along a linear regression. Instead, the authors simply split the population up into two groups, supposedly because that was the best way to get a significant effect out of the data. Furthermore, the number of people in the low-protein group was very low, only around 1/10th of the number in any of the other groups. This increases the chance that the sample is not representative of the population -- not the basis of good 
+
+To me, the most curious part of this story is the relationship between [protein and IGF-1](http://www.ncbi.nlm.nih.gov/pubmed/8156941). In the human data, it appeared to be meat in particular that mediated the increased cancer risk, but in the animal data, soy protein lead to similar increases in IGF-1 and cancer growth. At least one previous study has suggested that the IGF-1 increase due to protein intake is due to essential amino acids, which are found in [greater concentrations](http://www.ncbi.nlm.nih.gov/pubmed/16201743) in animal protein. Interestingly, restricton of one of these amino acids, methionine, has been linked to [increased lifespan in mice](http://www.ncbi.nlm.nih.gov/pubmed/8001743). This is far from being completely understoond, but is interesting to think about.
+
+I've been travelling a lot frequently and that means eating on the cheap, sometimes without the ability to cook. That puts meat out of the question in a lot of cases and so I've significantly cut back. Perhaps I should keep this streak going.
+
+Link to the full study: [Low Protein Intake Is Associated with a Major Reduction in IGF-1, Cancer, and Overall Mortality...](http://www.cell.com/cell-metabolism/fulltext/S1550-4131%2814%2900062-X "Title")
+
+
+

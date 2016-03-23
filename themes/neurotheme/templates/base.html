@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+        <!--font -->
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,900,700,400italic" rel="stylesheet" type="text/css">
+        <meta charset="utf-8" />
+
+        <!--css-->
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css" />
+
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/neurosponge.css" />
+        {% endblock head %}
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8" >
+        {% block content %}
+        {% endblock %}
+    </div>
+   <div class="col-lg-1"></div>
+    <div class="col-lg-1">
+<div class="dropdown">
+<span class="glyphicon glyphicon-collapse-down" type="button" id="dropdownMenu1" data-toggle="dropdown" style="font-size: 30px">
+    </span>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/index.html">Home</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/authors.html">About</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/archives.html">Archive</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/feed/all.atom.xml">Feed</a></li>
+    </ul>
+    </div>  
+    </div>
+    </div>
+</div>
+
+    <hr>
+<footer style="text-align: center;"> 
+    Powered by Pelican and Bootstrap 
+</footer>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="{{ SITEURL }}/theme/js/bootstrap.js"></script>
+
+{% include 'analytics.html' %}
+{% include 'disqus_script.html' %}
+</body>
+</html>

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %} 
+
+<section id="content" class="body">
+  <header id="article_header" class="page">
+    <figure class="avatar">
+    <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" alt="Enzo-brain" src="images/fullbrain.gif"></img></a>
+    </figure>
+    <h2 class="entry-title">{{ article.title }}</a></h2>
+ </header>
+
+  <footer class="post-info">
+    <abbr class="published" title="{{ article.date.isoformat() }}">
+      {{ article.locale_date }}
+    </abbr>   
+  </footer><!-- /.post-info -->
+
+  <div class="entry-content">
+    <br>
+    {{ article.content }}
+  </div><!-- /.entry-content -->
+
+{% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+    <div class="comments">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "{{ article.url }}";
+        var disqus_url = "{{ SITEURL }}/{{ article.url }}";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+    {% endif %}
+</section>
+{% endblock %}

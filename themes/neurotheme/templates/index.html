@@ -1,0 +1,30 @@
+<section id="index" class="home"></section>
+    <div class="headline">
+        <div class="container">
+     <h2>Before he was a grad student, he was only a...</h2>    
+     <h1>NEUROSPONGE</h1>
+     <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" alt="Enzo-brain" src="images/fullbrain.gif"></img></a>          
+</div>
+ </div>
+ 
+ <hr>
+{% extends "base.html" %}
+{% block content %}
+
+<section id="content">
+{% block content_title %}
+{% endblock %}
+
+<ol id="post-list">
+{% for article in articles_page.object_list %}
+        <article class="hentry">
+                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" color="#333">{{ article.title }}</a></h2> {{ article.locale_date }} <br></header>
+                <br>
+                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+        </article>
+        <hr>
+{% endfor %}
+</ol><!-- /#posts-list -->
+{% include 'pagination.html' %}
+</section><!-- /#content -->
+{% endblock content %}

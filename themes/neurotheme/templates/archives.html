@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="content" class="body">
+  <header id="article_header" class="page">
+    <figure class="avatar">
+    <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" alt="Enzo-brain" src="images/fullbrain.gif"></img></a>
+    </figure>
+    <h2>Archive</h2>
+  </header>	
+
+</section>
+
+<br>
+<dl>
+{% for article in dates %}
+    <dt>{{ article.locale_date }}</dt>
+    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    <br>
+{% endfor %}
+</dl>
+{% endblock %}

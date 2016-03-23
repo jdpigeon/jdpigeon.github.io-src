@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - About{% endblock %}
+
+{% block content %}
+<section id="content" class="body">
+  <header id="article_header" class="page">
+    <figure class="avatar">
+    <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" alt="Enzo-brain" src="images/fullbrain.gif"></img></a>
+    </figure>
+    <h2>
+      About Me</a></h2>
+ 
+  </header>
+  <br>
+  <div class="entry-content">
+    <p> I am a neurobiology student living in between undergrad and graduate school. I will be posting here about neuroscience, meditation, and cognitive enhancement.</p>
+  </div><!-- /.entry-content -->
+</section>
+{% endblock %}
