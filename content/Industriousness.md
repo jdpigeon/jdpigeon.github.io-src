@@ -1,5 +1,5 @@
 Author: 
-Date: 2013-06-30
+Date: 2015-08-15
 Title: Learned Industriousness
 Tags: 
 Status: published
