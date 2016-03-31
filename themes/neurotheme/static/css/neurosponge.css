@@ -36,13 +36,17 @@ body {
 
 	background-image: url('/images/gray.png');
 	font-family: 'Lato', sans-serif !important;
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.container > .row {
+	font-size: 20px;
 }
 
 .dropdown-menu {
 	min-width: 0px;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .dropdown {
@@ -56,7 +60,7 @@ a {
     
 }
 
-.col-lg-8 a {
+.col-lg-10 a {
 	color: #02779E; 
 }
 
@@ -80,21 +84,17 @@ a.noborder:hover {
 }
 
 .headline > .container > h1 {
-	font-family: 'Lato', sans-serif;
+	
 	font-size: 60px;
 	font-weight: 900;
-	background: #ffffff;
-	background: rgba(255, 255, 255, 0.9);
 	margin-top: 0px;
 }
 
 .headline > .container > h2 {
-	font-family: 'Lato', sans-serif;
+	
 	font-size: 12px;
 	font-weight: 400;
 	font-style: italic;
-	background: #ffffff;
-	background: rgba(255, 255, 255, 0.9);
 	margin-bottom: 0px;
 }
 
@@ -118,7 +118,7 @@ figure.avatar {
 	left:-130px;
 	margin-top:-18px;
 	width:55px;
-	height:55px
+	height:55px;
 }
 
 footer {

@@ -1,6 +1,6 @@
 Author: 
 Date: 2014-04-28 
-Title: A Neuroscientific Impression of a Vipassana Retreat
+Title: Neuroscience on a Vipassana Retreat
 Summary: I wish someone had warned me about the chanting. Every meditation begins with Goenka reciting Buddhist scripture in a long, low, loud, crumbly drone that fails to adhere to any standards of tonality. Musically, it is very, very bad. 
 Status: published
 

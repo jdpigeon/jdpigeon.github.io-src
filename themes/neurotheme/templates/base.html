@@ -19,24 +19,24 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2">
+    <div class="col-lg-1 col-xs-1">
     </div>
-    <div class="col-lg-8" >
+    <div class="col-lg-10 col-xs-10" >
         {% block content %}
         {% endblock %}
     </div>
-   <div class="col-lg-1"></div>
-    <div class="col-lg-1">
-<div class="dropdown">
-<span class="glyphicon glyphicon-collapse-down" type="button" id="dropdownMenu1" data-toggle="dropdown" style="font-size: 30px">
-    </span>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/index.html">Home</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/authors.html">About</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/archives.html">Archive</a></li>
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/feed/all.atom.xml">Feed</a></li>
-    </ul>
-    </div>  
+   
+    <div class="col-lg-1 col-xs-1">
+        <div class="dropdown">
+        <span class="glyphicon glyphicon-collapse-down" type="button" id="dropdownMenu1" data-toggle="dropdown" style="font-size: 30px">
+        </span>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/index.html">Home</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/authors.html">About</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/archives.html">Archive</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/feed/all.atom.xml">Feed</a></li>
+        </ul>
+        </div>  
     </div>
     </div>
 </div>
