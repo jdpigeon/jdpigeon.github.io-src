@@ -36,17 +36,15 @@ body {
 
 	background-image: url('/images/gray.png');
 	font-family: 'Lato', sans-serif !important;
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
-.container > .row {
-	font-size: 20px;
-}
+
 
 .dropdown-menu {
 	min-width: 0px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .dropdown {
