@@ -35,7 +35,7 @@ header {
 body {
 
 	background-image: url('/images/gray.png');
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Vollkorn', serif !important;
 	font-size: 18px;
 	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
