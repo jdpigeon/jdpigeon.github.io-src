@@ -14,7 +14,15 @@
 
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/neurosponge.css" />
 
-        
+        {% block meta %}
+        <meta name="description" content="Writing from an unproductive neuroscientist" />
+        {% endblock %}
+
+        {% block opengraph %}
+        <meta property="og:site_name" content="{{ SITENAME }}" />
+        <meta property="og:url" content="{{ SITEURL }}"/>
+        <meta property="og:description" content="Writing from an unproductive neuroscientist"/>
+        {% endblock %}
         
         {% endblock head %}
 </head>
