@@ -25,8 +25,11 @@ Interestingly, similar research was also done on humans. An experiment done on l
 Although a bit antiquated, these studies are interesting and suggest that, in order to be more productive, one needs to learn to tolerate discomfort and be able to delay gratification. It's possible that training this skill directly -- the ability to tolerate, and possibly even enjoy, the discomfort of working hard -- might increase productivity across the board. However, it's not clear that such benefits will persist after training.
 
 Based on the research, here are some key recommendations for training yourself to be more industrious:
-1. Reward yourself only for high quality work
-2. Expose yourself to the discomfort of hard effort
-3. Begin a practice to develop self-control, such as taking cold showers
 
+-	Reward yourself only for high quality work
+-	Expose yourself to the discomfort of hard effort
+-	Begin a practice to develop self-control, such as taking cold showers
+
+<br>
+  
 *for those interested in reading the review article that contains this research, you can find it [here](http://homepages.se.edu/cvonbergen/files/2013/01/Learned-Industriousness.pdf).* 
