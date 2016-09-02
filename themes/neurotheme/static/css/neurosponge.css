@@ -10,6 +10,10 @@ h1,h2,h3, h4 {
 	margin-bottom: 0px;
 }
 
+h2 {
+	margin-top: 50px;
+}
+
 h2 a { color: #333 !important; }
 
 h3 {
@@ -40,7 +44,29 @@ body {
 	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
+figure {
+	display: table;
+	margin: auto;
+    margin-top: 2cm;
+ 	margin-bottom: 2cm;
+ }
 
+figure img {
+	display: block;
+	margin: auto;
+	width: 80%;
+	
+}
+
+
+figcaption {
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+	font-family:  'Lato', sans-serif;
+	font-style: italic;
+
+}
 
 .dropdown-menu {
 	min-width: 0px;
@@ -113,10 +139,9 @@ figure.avatar {
 	position:absolute;
 	bottom:auto;
 	right:auto;
-	left:-130px;
-	margin-top:-18px;
-	width:55px;
-	height:55px;
+	left:-130px !important;
+	margin-top:-18px !important;
+	
 }
 
 footer {
