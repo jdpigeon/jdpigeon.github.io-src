@@ -2,6 +2,7 @@ html{
 	font-family: 'Lato', sans-serif !important;
 }
 
+/* Todo: Figure out how to have custom images generated for each post */;
 h1,h2,h3, h4 {
  
 	font-family:  'Lato', sans-serif;
@@ -54,8 +55,8 @@ figure {
 figure img {
 	display: block;
 	margin: auto;
-	width: 80%;
-	
+	width: 100%;
+
 }
 
 
@@ -141,14 +142,20 @@ figure.avatar {
 	right:auto;
 	left:-130px !important;
 	margin-top:-18px !important;
+	width:55px !important;
+	height:55px !important;
 	
+}
+img.brain {
+	width: auto;
+
 }
 
 footer {
 	font-size: 14px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-}
+}brain
 
 /* RESPONSIVE CSS */
 
