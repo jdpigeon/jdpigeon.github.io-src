@@ -15,15 +15,15 @@
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/neurosponge.css" />
 
         {% block meta %}
-        <meta name="description" content="Writing from an unproductive neuroscientist" />
+        <meta name="description" content="Neurosponge" />
         {% endblock %}
 
         {% block opengraph %}
         <meta property="og:site_name" content="{{ SITENAME }}" />
         <meta property="og:url" content="{{ SITEURL }}"/>
-        <meta property="og:description" content="Writing from an unproductive neuroscientist"/>
+        <meta property="og:description" content="Neurosponge"/>
         {% endblock %}
-        
+
         {% endblock head %}
         {% include 'analytics.html' %}
 </head>
@@ -38,7 +38,7 @@
         {% block content %}
         {% endblock %}
     </div>
-   
+
     <div class="col-lg-1 col-xs-1">
         <div class="dropdown">
         <span class="glyphicon glyphicon-collapse-down" type="button" id="dropdownMenu1" data-toggle="dropdown" style="font-size: 30px">
@@ -46,17 +46,18 @@
             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
             <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/index.html">Home</a></li>
             <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/authors.html">About</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/resume.html">Developer Resume</a></li>
             <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/archives.html">Archive</a></li>
             <li role="presentation"><a role="menuitem" tabindex="-1" href="{{ SITEURL }}/feed/all.atom.xml">Feed</a></li>
         </ul>
-        </div>  
+        </div>
     </div>
     </div>
 </div>
 
     <hr>
-<footer style="text-align: center;"> 
-    Powered by Pelican and Bootstrap 
+<footer style="text-align: center;">
+    Powered by Pelican and Bootstrap
 </footer>
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="{{ SITEURL }}/theme/js/bootstrap.js"></script>
