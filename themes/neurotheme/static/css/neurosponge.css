@@ -4,7 +4,6 @@ html{
 
 /* Todo: Figure out how to have custom images generated for each post */;
 h1,h2,h3, h4 {
- 
 	font-family:  'Lato', sans-serif;
 	font-style: bold;
 	font-weight: 700;
@@ -29,7 +28,7 @@ h4 {
 }
 
 hr {
-	
+
 	height: 2px;
 }
 
@@ -66,7 +65,6 @@ figcaption {
 	text-align: center;
 	font-family:  'Lato', sans-serif;
 	font-style: italic;
-
 }
 
 .dropdown-menu {
@@ -77,16 +75,16 @@ figcaption {
 .dropdown {
 	position: relative;
 	top: 30px;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 a {
     text-decoration: none;
-    
+
 }
 
 .col-lg-10 a {
-	color: #02779E; 
+	color: #02779E;
 }
 
 a:hover, a:active, a.active {
@@ -96,7 +94,7 @@ a:hover, a:active, a.active {
 }
 
 a.noborder:hover {
-	color: inherit; 
+	color: inherit;
 	text-decoration: : none;
 	border-bottom: none !important;
 }
@@ -109,14 +107,14 @@ a.noborder:hover {
 }
 
 .headline > .container > h1 {
-	
+
 	font-size: 60px;
 	font-weight: 900;
 	margin-top: 0px;
 }
 
 .headline > .container > h2 {
-	
+
 	font-size: 12px;
 	font-weight: 400;
 	font-style: italic;
@@ -127,42 +125,33 @@ a.noborder:hover {
 	width: 90px;
 }
 
-.entry-content { 
+.entry-content {
 	color: 57534a;
 }
+
 header.page {
-	padding-top: 100px;
+	padding-top: 30px;
 	position: relative;
 	margin-bottom: 0px;
 }
 
 figure.avatar {
-	position:absolute;
-	bottom:auto;
-	right:auto;
-	left:-130px !important;
-	margin-top:-18px !important;
-	width:55px !important;
-	height:55px !important;
-	
+	position:inline-block;
 }
+
 img.brain {
 	width: auto;
-
 }
 
 footer {
 	font-size: 14px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-}brain
+}
 
 /* RESPONSIVE CSS */
 
-@media (max-width: 1200px) {
-
-	.headline > .container > h1 {font-size: 140px;}
-	.headline > .container > h2 {font-size: 63px;}
+@media (max-width: 1280px) {
 	.featurette-divider {margin: 50px 0;}
 	.featurette-image.pull-left {margin-right: 20px;}
 	.featurette-image.pull-right {margin-left: 20px;}
@@ -170,45 +159,34 @@ footer {
 
 }
 
-@media (max-width: 991px) {
-
-	.headline > .container > h1 {font-size: 105px;}
-	.headline > .container > h2 {font-size: 50px;}
+@media (max-width: 980px) {
 	.featurette-divider {margin: 40px 0;}
 	.featurette-image {max-width: 50%;}
 	.featurette-image.pull-left {margin-right: 10px;}
 	.featurette-image.pull-right {margin-left: 10px;}
 	.featurette-heading {font-size: 30px;}
-
 }
 
-@media (max-width: 768px) {
-	
+@media (max-width: 800px) {
 	.container {margin: 0 15px;}
 	.featurette-divider {margin: 40px 0;}
 	.featurette-heading {font-size: 25px;}
+	.dropdown {
+		right: 50px;
+	}
 
 }
 
-
-@media (max-width: 668px) {
-
-	.headline > .container > h1 {font-size: 70px;}
-	.headline > .container > h2 {font-size: 32px;}
+@media (max-width: 414px) {
+	.dropdown-menu { left: -40px }
+	.dropdown { top: 10px }
+	ol, ul { padding-left: 0px; }
 	.featurette-divider {margin: 30px 0;}
-
-}
-
-@media (max-width: 640px) {
-
-	.headline {padding: 75px 0 25px 0;}
-	.headline > .container > h1 {font-size: 60px;}
-	.headline > .container > h2 {font-size: 30px;}
+	.headline .container h1 { font-size: 40px; }
 
 }
 
 @media (max-width: 375px) {
-
 	.featurette-divider {margin: 10px 0;}
 	.featurette-image {max-width: 100%;}
 	.featurette-image.pull-left {margin-right: 0; margin-bottom: 10px;}

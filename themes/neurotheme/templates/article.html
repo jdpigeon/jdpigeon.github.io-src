@@ -2,6 +2,7 @@
 
 {% block meta %}
     <meta name="author" content="Neurosponge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% if article.tags %}
         <meta name="keywords" content="{{ article.tags|join(',')|striptags }}" />
@@ -21,24 +22,23 @@
 
     {% if article.og_image %}
         <meta property="og:image" content="{{ SITEURL }}/{{ article.og_image }}"/>
-    {% endif %}  
+    {% endif %}
 {% endblock %}
 
 
-{% block content %} 
-
+{% block content %}
+<hr>
 <section id="content" class="body">
   <header id="article_header" class="page">
-    <figure class="avatar">
-    <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" alt="Enzo-brain" src="images/fullbrain.gif"></img></a>
-    </figure>
-    <h2 class="entry-title">{{ article.title }}</a></h2>
+    <span class="entry-title">
+      <h1>{{ article.title }}</h1>
+    </span>
  </header>
 
   <footer class="post-info">
     <abbr class="published" title="{{ article.date.isoformat() }}">
       {{ article.locale_date }}
-    </abbr>   
+    </abbr>
   </footer><!-- /.post-info -->
 
   <div class="entry-content">

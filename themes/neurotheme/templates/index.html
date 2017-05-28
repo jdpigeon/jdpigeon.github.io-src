@@ -1,17 +1,16 @@
-<section id="index" class="home"></section>
-    <div class="headline">
-        <div class="container">
-     <h2>Before he was a grad student, he was only a...</h2>    
-     <h1>NEUROSPONGE</h1>
-     <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" src="images/fullbrain.gif"></img></a>          
-</div>
- </div>
- 
- <hr>
 {% extends "base.html" %}
-{% block content %}
-
+{% block headline %}
+<section class="headline">
+  <div class="container">
+   <h2>Before he was a grad student, he was only a...</h2>
+   <h1>NEUROSPONGE</h1>
+   <a href="{{ SITEURL }}/" class ="noborder"><img class="brain" height="100" src="images/fullbrain.gif"></img></a>
+ </div>
+ </section>
+ <hr>
+ {% endblock %}
 <section id="content">
+{% block content %}
 {% block content_title %}
 {% endblock %}
 
