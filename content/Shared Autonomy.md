@@ -7,7 +7,7 @@ Summary: For a person in 2017 with muscular dystrophy, cerebral palsy, or anothe
 
 For a person in 2017 with muscular dystrophy, cerebral palsy, or another disability that impairs mobility, the opportunities to live a normal, functioning life are greater than any other point in history. Just check out how cool this robotic arm is...
 
-<iframe id="video" width="560" height="315" align="middle" src="https://www.youtube.com/embed/iZYxJFROew8?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/iZYxJFROew8?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 With the current level of sophistication in artificial limbs, the field is now running up against an interesting problem: how should they be controlled? Using a standard joystick controller efficiently requires a significant amount of training, effort, and concentration. Furthermore, many of the patients who would benefit from an artificial limbs also have upper body mobility issues that make operating a standard joystick controller difficult. Thus, robotics researchers are now exploring a concept known as shared autonomy, which shares control over a prosthetic limb between the patient and an artificially intelligent system.
 
