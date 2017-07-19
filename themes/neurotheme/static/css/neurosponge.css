@@ -45,13 +45,20 @@ body {
 	margin-top: 0px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
+p {
+	padding: 10 0 10px;
+}
+
 figure {
 	display: table;
 	margin: auto;
-    margin-top: 2cm;
- 	margin-bottom: 2cm;
+    margin-top: 1cm;
+ 	margin-bottom: 1cm;
  }
 
+iframe {
+	margin: 20px;
+}
 
 figure img {
 	display: block;
@@ -82,7 +89,7 @@ figcaption {
 .dropdown {
 	position: absolute;
 	top: 30px;
-	right: 30px;
+	right: 0px;
   cursor: pointer;
 	z-index: 2;
 }
